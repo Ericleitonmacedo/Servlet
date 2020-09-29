@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\kruba\Desktop\Aula Carlos terça\TED\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1179467758.index
+2774339357.index
+94949523.index
+2503451994.index
+3828757865.index
+438366643.index
+2503451994.index
+912048394.index

@@ -1,0 +1,29 @@
+
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class AgendaServlet
+ */
+@WebServlet("/AgendaServlet")
+public class AgendaServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	public void doPost(HttpServletRequest request, HttpServletResponse response) {
+		
+		System.out.println(">>>>>>>>> REQUEST" + request.getMethod());
+		
+		String login = request.getParameter("login");
+		String senha = request.getParameter("senha");
+		
+		System.out.println("O nome que veio na requisição é " + login);
+		System.out.println("A senha que veio na requisição é " + senha);
+		
+	}
+	
+	
+	
+}
